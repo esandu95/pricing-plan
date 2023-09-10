@@ -4,10 +4,10 @@ body {
 
   .pricing-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-    gap: 2rem;
+    gap: 20px;
   }
 
   .pricing-plan{
@@ -52,10 +52,4 @@ body {
   footer{
     text-align: center;
   }
-  @media(max-width:600px){
-    .pricing-container{
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
-  }
+
