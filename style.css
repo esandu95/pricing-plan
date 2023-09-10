@@ -1,21 +1,13 @@
 body {
     font-family: 'Sono', sans-serif;
   }
-  @media(min-width:600px){
+
   .pricing-container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
     gap: 2rem;
-  }
-}
-  @media(max-width:600px){
-    .pricing-container{
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
   }
 
   .pricing-plan{
@@ -59,4 +51,11 @@ body {
   }
   footer{
     text-align: center;
+  }
+  @media(max-width:600px){
+    .pricing-container{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
   }
