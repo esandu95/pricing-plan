@@ -8,6 +8,7 @@ body {
     }
   }
 
+@media(min-width:600px){
   .pricing-container{
     display: flex;
     justify-content: center;
@@ -15,7 +16,7 @@ body {
     height: 80vh;
     gap: 2rem;
   }
-
+}
   .pricing-plan{
     background-color: lightgrey;
     text-align: center;
