@@ -1,3 +1,9 @@
+  @media(max-width:600px){
+    .pricing-container{
+      flex-direction: column;
+      height: 100%;
+    }
+  }
 body {
     font-family: 'Sono', sans-serif;
   }
@@ -52,9 +58,4 @@ body {
   footer{
     text-align: center;
   }
-  @media(max-width:600px){
-    .pricing-container{
-      flex-direction: column;
-      height: 100%;
-    }
-  }
+
