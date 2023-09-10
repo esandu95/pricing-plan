@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    min-width:fit-content;
   }
 
   .pricing-plan{
